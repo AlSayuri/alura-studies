@@ -8,14 +8,14 @@ class Formulario extends React.Component{
             <form className={style.novaTarefa}>
                 <div className={style.inputContainer}>
                     <label htmlFor="tarefa">
-                        Adicione um novo estado
+                        Adicione um novo estudo
                     </label>
 
                     <input
                         type="text"
                         name="tarefa"
                         id="tarefa"
-                        placeholder="O que você qur estudar"
+                        placeholder="O que você quer estudar"
                         required
                     />
                 </div>
@@ -36,7 +36,9 @@ class Formulario extends React.Component{
                     />
                 </div>
 
-                <Botao/>
+                <Botao>
+                    Adicionar
+                </Botao>
             </form>
         );
     }
